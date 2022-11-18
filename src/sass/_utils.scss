@@ -1,0 +1,25 @@
+.truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+@mixin clamp($num_of_lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $num_of_lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}

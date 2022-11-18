@@ -1,0 +1,20 @@
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;;
+}
+
+.container {
+  padding-left: $--padding-x;
+  padding-right: $--padding-x;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.row {
+  margin: -$--padding-x;
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    margin: $--padding-x;
+  }
+}
