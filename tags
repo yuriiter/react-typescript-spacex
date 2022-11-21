@@ -9,9 +9,121 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/acbd555b/
-Vite + React + TS	index.html	/^    <title>Vite + React + TS<\/title>$/;"	j
+2HdOrYqPmcahQY6IquxJpmWGw7O	.idea/workspace.xml	/^  <component name="ProjectId" id="2HdOrYqPmcahQY6IquxJpmWGw7O" \/>$/;"	i
+85ebc3cf-69ec-4827-b5e9-7b47d5447dad	.idea/workspace.xml	/^      <changelist id="85ebc3cf-69ec-4827-b5e9-7b47d5447dad" name="Changes" comment="" \/>$/;"	i
+85ebc3cf-69ec-4827-b5e9-7b47d5447dad	.idea/workspace.xml	/^    <list default="true" id="85ebc3cf-69ec-4827-b5e9-7b47d5447dad" name="Changes" comment="">$/;"	i
+ADD_TO_FAVOURITES	src/constants.ts	/^export const ADD_TO_FAVOURITES = "ADD_TO_FAVOURITES";$/;"	C
+Address	src/types.ts	/^export type Address = {$/;"	a
+Capsule	src/types.ts	/^export type Capsule = {$/;"	a
+CapsuleMission	src/types.ts	/^export type CapsuleMission = {$/;"	a
+CapsulesFind	src/types.ts	/^export type CapsulesFind = {$/;"	a
+Core	src/types.ts	/^export type Core = {$/;"	a
+CoreMission	src/types.ts	/^export type CoreMission = {$/;"	a
+CoresFind	src/types.ts	/^export type CoresFind = {$/;"	a
+Default	.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
+Distance	src/types.ts	/^export type Distance = {$/;"	a
+Dragon	src/types.ts	/^export type Dragon = {$/;"	a
+DragonHeatShield	src/types.ts	/^export type DragonHeatShield = {$/;"	a
+DragonPressurizedCapsule	src/types.ts	/^export type DragonPressurizedCapsule = {$/;"	a
+DragonThrust	src/types.ts	/^export type DragonThrust = {$/;"	a
+DragonTrunk	src/types.ts	/^export type DragonTrunk = {$/;"	a
+DragonTrunkCargo	src/types.ts	/^export type DragonTrunkCargo = {$/;"	a
+Exact	src/types.ts	/^export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };$/;"	a
+Force	src/types.ts	/^export type Force = {$/;"	a
+HistoriesResult	src/types.ts	/^export type HistoriesResult = {$/;"	a
+History	src/types.ts	/^export type History = {$/;"	a
+HistoryFind	src/types.ts	/^export type HistoryFind = {$/;"	a
+Info	src/types.ts	/^export type Info = {$/;"	a
+InfoLinks	src/types.ts	/^export type InfoLinks = {$/;"	a
+InputMaybe	src/types.ts	/^export type InputMaybe<T> = Maybe<T>;$/;"	a
+Landpad	src/types.ts	/^export type Landpad = {$/;"	a
+Launch	src/types.ts	/^export type Launch = {$/;"	a
+LaunchFind	src/types.ts	/^export type LaunchFind = {$/;"	a
+LaunchLinks	src/types.ts	/^export type LaunchLinks = {$/;"	a
+LaunchRocket	src/types.ts	/^export type LaunchRocket = {$/;"	a
+LaunchRocketFairings	src/types.ts	/^export type LaunchRocketFairings = {$/;"	a
+LaunchRocketFirstStage	src/types.ts	/^export type LaunchRocketFirstStage = {$/;"	a
+LaunchRocketFirstStageCore	src/types.ts	/^export type LaunchRocketFirstStageCore = {$/;"	a
+LaunchRocketSecondStage	src/types.ts	/^export type LaunchRocketSecondStage = {$/;"	a
+LaunchSite	src/types.ts	/^export type LaunchSite = {$/;"	a
+LaunchTelemetry	src/types.ts	/^export type LaunchTelemetry = {$/;"	a
+LaunchesPastResult	src/types.ts	/^export type LaunchesPastResult = {$/;"	a
+Launchpad	src/types.ts	/^export type Launchpad = {$/;"	a
+Link	src/types.ts	/^export type Link = {$/;"	a
+Location	src/types.ts	/^export type Location = {$/;"	a
+MakeMaybe	src/types.ts	/^export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };$/;"	a
+MakeOptional	src/types.ts	/^export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]>/;"	a
+Mass	src/types.ts	/^export type Mass = {$/;"	a
+Maybe	src/types.ts	/^export type Maybe<T> = T | null;$/;"	a
+Mission	src/types.ts	/^export type Mission = {$/;"	a
+MissionResult	src/types.ts	/^export type MissionResult = {$/;"	a
+MissionsFind	src/types.ts	/^export type MissionsFind = {$/;"	a
+Payload	src/types.ts	/^export type Payload = {$/;"	a
+PayloadOrbitParams	src/types.ts	/^export type PayloadOrbitParams = {$/;"	a
+PayloadsFind	src/types.ts	/^export type PayloadsFind = {$/;"	a
+Query	src/types.ts	/^export type Query = {$/;"	a
+QueryCapsuleArgs	src/types.ts	/^export type QueryCapsuleArgs = {$/;"	a
+QueryCapsulesArgs	src/types.ts	/^export type QueryCapsulesArgs = {$/;"	a
+QueryCapsulesPastArgs	src/types.ts	/^export type QueryCapsulesPastArgs = {$/;"	a
+QueryCapsulesUpcomingArgs	src/types.ts	/^export type QueryCapsulesUpcomingArgs = {$/;"	a
+QueryCoreArgs	src/types.ts	/^export type QueryCoreArgs = {$/;"	a
+QueryCoresArgs	src/types.ts	/^export type QueryCoresArgs = {$/;"	a
+QueryCoresPastArgs	src/types.ts	/^export type QueryCoresPastArgs = {$/;"	a
+QueryCoresUpcomingArgs	src/types.ts	/^export type QueryCoresUpcomingArgs = {$/;"	a
+QueryDragonArgs	src/types.ts	/^export type QueryDragonArgs = {$/;"	a
+QueryDragonsArgs	src/types.ts	/^export type QueryDragonsArgs = {$/;"	a
+QueryHistoriesArgs	src/types.ts	/^export type QueryHistoriesArgs = {$/;"	a
+QueryHistoriesResultArgs	src/types.ts	/^export type QueryHistoriesResultArgs = {$/;"	a
+QueryHistoryArgs	src/types.ts	/^export type QueryHistoryArgs = {$/;"	a
+QueryLandpadArgs	src/types.ts	/^export type QueryLandpadArgs = {$/;"	a
+QueryLandpadsArgs	src/types.ts	/^export type QueryLandpadsArgs = {$/;"	a
+QueryLaunchArgs	src/types.ts	/^export type QueryLaunchArgs = {$/;"	a
+QueryLaunchLatestArgs	src/types.ts	/^export type QueryLaunchLatestArgs = {$/;"	a
+QueryLaunchNextArgs	src/types.ts	/^export type QueryLaunchNextArgs = {$/;"	a
+QueryLaunchesArgs	src/types.ts	/^export type QueryLaunchesArgs = {$/;"	a
+QueryLaunchesPastArgs	src/types.ts	/^export type QueryLaunchesPastArgs = {$/;"	a
+QueryLaunchesPastResultArgs	src/types.ts	/^export type QueryLaunchesPastResultArgs = {$/;"	a
+QueryLaunchesUpcomingArgs	src/types.ts	/^export type QueryLaunchesUpcomingArgs = {$/;"	a
+QueryLaunchpadArgs	src/types.ts	/^export type QueryLaunchpadArgs = {$/;"	a
+QueryLaunchpadsArgs	src/types.ts	/^export type QueryLaunchpadsArgs = {$/;"	a
+QueryMissionArgs	src/types.ts	/^export type QueryMissionArgs = {$/;"	a
+QueryMissionsArgs	src/types.ts	/^export type QueryMissionsArgs = {$/;"	a
+QueryMissionsResultArgs	src/types.ts	/^export type QueryMissionsResultArgs = {$/;"	a
+QueryPayloadArgs	src/types.ts	/^export type QueryPayloadArgs = {$/;"	a
+QueryPayloadsArgs	src/types.ts	/^export type QueryPayloadsArgs = {$/;"	a
+QueryRocketArgs	src/types.ts	/^export type QueryRocketArgs = {$/;"	a
+QueryRocketsArgs	src/types.ts	/^export type QueryRocketsArgs = {$/;"	a
+QueryRocketsResultArgs	src/types.ts	/^export type QueryRocketsResultArgs = {$/;"	a
+QueryShipArgs	src/types.ts	/^export type QueryShipArgs = {$/;"	a
+QueryShipsArgs	src/types.ts	/^export type QueryShipsArgs = {$/;"	a
+QueryShipsResultArgs	src/types.ts	/^export type QueryShipsResultArgs = {$/;"	a
+REMOVE_FROM_FAVOURITES	src/constants.ts	/^export const REMOVE_FROM_FAVOURITES = "REMOVE_FROM_FAVOURITES";$/;"	C
+Result	src/types.ts	/^export type Result = {$/;"	a
+Roadster	src/types.ts	/^export type Roadster = {$/;"	a
+Rocket	src/types.ts	/^export type Rocket = {$/;"	a
+RocketEngines	src/types.ts	/^export type RocketEngines = {$/;"	a
+RocketFirstStage	src/types.ts	/^export type RocketFirstStage = {$/;"	a
+RocketLandingLegs	src/types.ts	/^export type RocketLandingLegs = {$/;"	a
+RocketPayloadWeight	src/types.ts	/^export type RocketPayloadWeight = {$/;"	a
+RocketSecondStage	src/types.ts	/^export type RocketSecondStage = {$/;"	a
+RocketSecondStagePayloadCompositeFairing	src/types.ts	/^export type RocketSecondStagePayloadCompositeFairing = {$/;"	a
+RocketSecondStagePayloads	src/types.ts	/^export type RocketSecondStagePayloads = {$/;"	a
+RocketsResult	src/types.ts	/^export type RocketsResult = {$/;"	a
+Scalars	src/types.ts	/^export type Scalars = {$/;"	a
+Ship	src/types.ts	/^export type Ship = {$/;"	a
+ShipLocation	src/types.ts	/^export type ShipLocation = {$/;"	a
+ShipMission	src/types.ts	/^export type ShipMission = {$/;"	a
+ShipsFind	src/types.ts	/^export type ShipsFind = {$/;"	a
+ShipsResult	src/types.ts	/^export type ShipsResult = {$/;"	a
+SpaceX launches	index.html	/^    <title>SpaceX launches<\/title>$/;"	j
+Volume	src/types.ts	/^export type Volume = {$/;"	a
 config	codegen.ts	/^const config: CodegenConfig = {$/;"	C
-config	codegen.ts	/^export default config$/;"	C
-default	codegen.ts	/^export default config$/;"	C
-export	codegen.ts	/^export default config$/;"	C
+favouritesAction	src/reducers/favouritesReducer.ts	/^export type favouritesAction = {$/;"	a
+favouritesReducer	src/reducers/favouritesReducer.ts	/^const favouritesReducer = (state: favouritesState = initialState, action: favouritesAction): fav/;"	C
+favouritesState	src/reducers/favouritesReducer.ts	/^export type favouritesState = {$/;"	a
+getStateFromLocalStorage	src/reducers/favouritesReducer.ts	/^const getStateFromLocalStorage: favouritesState | null =$/;"	C
+initialState	src/reducers/favouritesReducer.ts	/^export const initialState: favouritesState = getStateFromLocalStorage || {$/;"	C
+isInFavourites	src/utils.ts	/^export const isInFavourites = (launchFavourites: string[], id: string): boolean =>$/;"	C
+newFavouriteLaunchesArray	src/reducers/favouritesReducer.ts	/^      const newFavouriteLaunchesArray: string[] =$/;"	C
 root	index.html	/^    <div id="root"><\/div>$/;"	I
+schema	codegen.ts	/^  schema: "https:\/\/api.spacex.land\/graphql\/",$/;"	C

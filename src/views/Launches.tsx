@@ -1,8 +1,19 @@
-import React, { useEffect, useState } from 'react'
-import { useQuery } from 'urql'
+import React, { useEffect, useState } from 'react';
+import { useQuery } from 'urql';
 import { LaunchesCard } from '../components/LaunchesCard';
-import * as gqlTypes from '../types'
-import { Backdrop, CircularProgress } from '@mui/material';
+import * as gqlTypes from '../types';
+import {
+  AppBar,
+  Backdrop,
+  Box,
+  Button,
+  CircularProgress,
+  IconButton,
+  Toolbar,
+  Typography,
+} from '@mui/material';
+import HideOnScroll from '../components/Navigation';
+import Navigation from '../components/Navigation';
 
 const launchesQuery = (page: number) => `
 {
@@ -25,22 +36,21 @@ const launchesQuery = (page: number) => `
   }
 }
 
-`
+`;
 
 export const Launches = () => {
-  const [launches, setLaunches] = useState<gqlTypes.Launch[]>([])
-  const [page, setPages] = useState<number>(0)
-  const [{ fetching, data, error }] = useQuery({query: launchesQuery(page)})
-
+  const [launches, setLaunches] = useState<gqlTypes.Launch[]>([]);
+  const [page, setPages] = useState<number>(0);
+  const [{ fetching, data, error }] = useQuery({ query: launchesQuery(page) });
 
   useEffect(() => {
-    if(data) {
-      setLaunches((prevCards) => [...prevCards, ...data.launches])
+    if (data) {
+      setLaunches((prevCards) => [...prevCards, ...data.launches]);
     }
     return () => {
-      setLaunches([])
-    }
-  }, [data])
+      setLaunches([]);
+    };
+  }, [data]);
 
   if (fetching) {
     return (
@@ -50,20 +60,20 @@ export const Launches = () => {
       >
         <CircularProgress color="inherit" />
       </Backdrop>
-    )
+    );
   } else if (error) {
-    return <>{ `Oh no! Error: ${error}` }</>;
+    return <>{`Oh no! Error: ${error}`}</>;
   }
 
-
   return (
-    <div className="launches container">
-      <div className="row launches__masonry">
-        {launches.map((launch: gqlTypes.Launch) => {
-          return <LaunchesCard key={launch.id} launch={launch} />;
-        })}
+    <>
+      <div className="launches container">
+        <div className="row launches__masonry">
+          {launches.map((launch: gqlTypes.Launch) => {
+            return <LaunchesCard key={launch.id} launch={launch} />;
+          })}
+        </div>
       </div>
-    </div>
-
-  )
-}
+    </>
+  );
+};

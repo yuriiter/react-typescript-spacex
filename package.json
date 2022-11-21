@@ -2,11 +2,11 @@
   "name": "akular",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
     "@emotion/styled": "^11.10.5",
@@ -21,8 +21,8 @@
     "urql": "^3.0.3"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^2.13.12",
-    "@graphql-codegen/client-preset": "^1.1.4",
+    "@graphql-codegen/cli": "2.13.12",
+    "@graphql-codegen/client-preset": "1.1.4",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.43.0",

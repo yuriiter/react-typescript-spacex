@@ -653,7 +653,7 @@
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     "tslib" "~2.4.0"
 
-"@graphql-codegen/cli@^2.13.12":
+"@graphql-codegen/cli@2.13.12":
   "integrity" "sha512-9pr39oseKQyQvm1tRFvW/2kt8c5JmT8u+5X6FZVBqWE18l1g4hB+XOeUNg/oEBdeDfiP7bvYjtQYOZaToXz9IQ=="
   "resolved" "https://registry.npmjs.org/@graphql-codegen/cli/-/cli-2.13.12.tgz"
   "version" "2.13.12"
@@ -695,7 +695,7 @@
     "yaml" "^1.10.0"
     "yargs" "^17.0.0"
 
-"@graphql-codegen/client-preset@^1.1.4":
+"@graphql-codegen/client-preset@1.1.4":
   "integrity" "sha512-KWUBNJ0gCXvNlxSqddB2pc/RRFNMJYf1oHNCarAOMh6/e+o/l9NfHLyzdvUKBZwwqUrcegFmraalbeXWY5nmjg=="
   "resolved" "https://registry.npmjs.org/@graphql-codegen/client-preset/-/client-preset-1.1.4.tgz"
   "version" "1.1.4"
