@@ -2,18 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useQuery } from 'urql';
 import { LaunchesCard } from '../components/LaunchesCard';
 import * as gqlTypes from '../types';
-import {
-  AppBar,
-  Backdrop,
-  Box,
-  Button,
-  CircularProgress,
-  IconButton,
-  Toolbar,
-  Typography,
-} from '@mui/material';
-import HideOnScroll from '../components/Navigation';
-import Navigation from '../components/Navigation';
+import { Backdrop, CircularProgress } from '@mui/material';
 
 const launchesQuery = (page: number) => `
 {
